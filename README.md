@@ -21,7 +21,7 @@ The pipeline ingests **real-time data** from Amazon (via RapidAPI), processes it
 ## 🔄 Data Pipeline (Medallion Architecture)
 
 1. **Bronze Layer**  
-   - Ingest raw product search data (electronics + other categories by ASIN)  
+   - Ingest raw product search data (electronics categories by ASIN, almost 10000 records)  
    - Ingest raw customer reviews (2000 records, 16 columns)
 
 2. **Silver Layer**  
@@ -38,7 +38,7 @@ The pipeline ingests **real-time data** from Amazon (via RapidAPI), processes it
    - **Products (11 columns)**:
      - `asin, product_price, sales_volume, is_best_seller, is_prime, product_num_ratings, product_title, product_minimum_offer_price, discount_amount, discount_percentage, price_category`
    - **Reviews (sentiment enriched)**:
-     - `review_id, review_comment, star_rating, review_date, sentiment_score, sentiment_label, review_asin`
+     - `review_id, review_comment_clean, star_rating, review_date, sentiment_score, sentiment_label, review_asin`
    - Insights derived:
      - Product pricing vs offers
      - Discount categories
