@@ -80,6 +80,7 @@ The pipeline ingests **real-time data** from Amazon (via RapidAPI), processes it
 
 ---
 
+## 📷 Pipeline Diagram
 <p align="center">
   <img src="Ecom-Data-Pipeline.png" alt="Amazon E-Commerce Pipeline" width="700">
 </p>
