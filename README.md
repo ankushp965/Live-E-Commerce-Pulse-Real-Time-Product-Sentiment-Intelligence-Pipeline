@@ -78,3 +78,8 @@ The pipeline ingests **real-time data** from Amazon (via RapidAPI), processes it
   - Positive keywords: "value for money", "battery", "quality"
   - Negative keywords: "delivery", "damaged", "warranty"
 
+---
+
+<p align="center">
+  <img src="Ecom-Data-Pipeline.png" alt="Amazon E-Commerce Pipeline" width="700">
+</p>
